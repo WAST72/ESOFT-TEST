@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.house {
+  width: 500px;
+  height: 421px;
+  border: 5px solid lightgray;
+  background: royalblue;
+  position: relative;
+}
+.wall {
+  position: absolute;
+  width: 370px;
+  height: 200px;
+  border: 2px solid white;
+  background: sienna;
+  left: 65px;
+  top: 193px;
+}
+.door {
+  position: absolute;
+  width: 86px;
+  height: 117px;
+  background: burlywood;
+  left: 207px;
+  top: 279px;
+}
+.door-knob {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: dodgerblue;
+  left: 217px;
+  top: 328px;
+}
+.roof {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 240px solid transparent;
+  border-right: 240px solid transparent;
+  border-bottom: 172px solid burlywood;
+  left: 10px;
+  top: 21px;
+}
+.window {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: dodgerblue;
+  left: 213px;
+  top: 94px;
+}
